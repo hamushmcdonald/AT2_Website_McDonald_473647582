@@ -1,0 +1,113 @@
+@font-face {
+    font-family: sourceSansPro;
+    src: url(sourcesansproregular.ttf)
+}
+
+@font-face {
+    font-family: sourceSansProSemiBold;
+    src: url(sourcesansprosemibold.ttf)
+}
+
+html {
+    background-color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: thin solid lightgrey;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header ul li {
+    color: navy;
+    display: block;
+    text-align: center;  
+}
+  
+a{
+    float: left;
+    text-decoration: none;
+    font-size: x-large;
+    cursor: pointer;
+    padding: 1rem;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+  
+i {
+    float: right;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+a:hover, i:hover {
+    color: lightgrey;
+}
+
+#logo {
+    padding:1rem 3rem;
+}
+
+main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: navy;
+    font-size: xx-large;
+    padding: 5rem;
+}
+
+p {
+    color: floralwhite;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+button {
+    align-items: center;
+    background-color: navy;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: floralwhite;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+  }
+  
+  button:hover { 
+    background-color: lightgrey;
+    color: floralwhite;
+  }
+
+  #backgroundImage {
+    background-image: url("./images/woman-white-sunglasses-blue-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 100%;
+  }
+
+  #elderlyManImage {
+    padding: 10rem;
+    position: right;
+
+  }
