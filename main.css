@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 @font-face {
     font-family: sourceSansPro;
     src: url(sourcesansproregular.ttf)
@@ -12,6 +14,8 @@ html {
     background-color: floralwhite;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* header */
 
 header {
     border-bottom: thin solid lightgrey;
@@ -54,6 +58,7 @@ a:hover, i:hover {
     padding:1rem 3rem;
 }
 
+/* main */
 main ul {
     list-style-type: none;
     margin: 0;
@@ -63,13 +68,13 @@ main ul {
 
 h1 {
     color: navy;
-    font-size: xx-large;
+    font-size: 3rem;
     padding: 5rem;
 }
 
 p {
-    color: floralwhite;
-    font-size: x-large;
+    color: navy;
+    font-size: 1.5rem;
     padding: 1rem;
 }
 
@@ -106,8 +111,22 @@ button {
     opacity: 100%;
   }
 
-  #elderlyManImage {
+  #elderlyManImage, #contactsBrownImage, #youngManImage {
     padding: 10rem;
     position: right;
+    object-fit: cover;
 
   }
+
+  main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+main ul li {
+    color: navy;
+    display: block;
+    text-align: center;  
+}
