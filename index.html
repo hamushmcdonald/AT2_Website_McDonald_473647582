@@ -8,7 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]--> 
+<![endif]-->
+<script src="https://unpkg.com/feather-icons"></script>
 <title>ABC Optical - Optical Store</title>
 <link rel="stylesheet" href="./main.css"> 
 </head>
@@ -32,10 +33,10 @@
                     <a href="#">Eye Health</a>
                 </li>
                 <li>
-                    <i>Favourites</i>
+                    <i data-feather="heart"></i>
                 </li>
                 <li>
-                    <i>Your Cart</i>
+                    <i data-feather="shopping-bag"></i>
                 </li>
             </ul>
         </nav>
@@ -74,5 +75,8 @@
     <footer>
 
     </footer>
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>
