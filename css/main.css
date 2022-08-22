@@ -1,34 +1,177 @@
-html {
-    background-color: floralwhite;
+@font-face {
+    font-family: sourceSansPro;
+    src: url(sourcesansproregular.ttf)
 }
-ul {
+
+@font-face {
+    font-family: sourceSansProSemiBold;
+    src: url(sourcesansprosemibold.ttf)
+}
+
+body {
+    background-color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: navy;
+    font-size: 8vh;
+}
+
+p, pre {
+    color: navy;
+    font-size: 4vh;
+    line-height: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0% 5%;
+}
+
+header {
+    border-bottom: thin solid lightgrey;
+}
+
+
+footer {
+    border-top: thin solid lightgrey;
+    
+
+}
+
+/* header */
+
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
 
-  }
-  
-  a {
+header ul li {
     color: navy;
-    display: block;
-    text-align: center;
-    text-decoration: none;
+    display: inline;
+    text-align: center;  
+}
+  
+header ul li a {
     float: left;
-    
-  }
-  
-  li a {
-    padding: 16px;
-    
-    
-    
-    
-  }
-  
-  a:hover {
+    text-decoration: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+    padding: 1rem;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+header ul li a:hover {
     color: lightgrey;
-  }
-  header {
-    border-bottom: thin solid lightgrey;
-  }
+}
+
+/* about */
+
+#about {
+    background-image: url("../images/clear-glasses-yellow-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+      
+}
+
+#about h1 {
+    padding-top: 15vh;
+}
+
+#about p {
+    padding-bottom: 15vh;
+    margin: 0% 5%;
+}
+
+/* glasses */
+
+#glasses {
+    display: flex;
+    flex-direction: row;
+    margin: 0% 5%;
+}
+
+#elderly-man {
+    max-width: 30%;
+    height: fit-content;
+    padding: 5rem;
+}
+
+#glasses h1 {
+    padding-top: 10rem;
+}
+
+#glasses p {
+    padding-bottom: 10rem;
+    margin-right: 5%;
+}
+
+/* contact-lenses */
+
+#contact-lenses {
+    background-image: url("../images/contact-lenses-white-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 90vh;
+}
+
+/* sunglasses */
+
+#sunglasses {
+    display: block;
+}
+
+#sunglasses ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#sunglasses img {
+    max-width: 30%;
+    height: fit-content;
+    padding: 5rem;
+}
+
+/* eye-health */
+
+#eye-health {
+    background-image: url("../images/contact-lenses-black-and-white.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#eye-health li, #eye-health p, #eye-health h1 {
+    color: yellow;
+}
+
+
+/* contact */
+
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+
+/* footer */
+
+footer p {
+    font-size: 1.5vw;
+}

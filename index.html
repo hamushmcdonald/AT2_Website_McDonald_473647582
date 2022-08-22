@@ -6,77 +6,146 @@
 <meta name="description" content=""> 
 <meta name="author" content="Hamish McDonald">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
-<![endif]-->
-<script src="https://unpkg.com/feather-icons"></script>
 <title>ABC Optical - Optical Store</title>
-<link rel="stylesheet" href="./main.css"> 
+<link rel="stylesheet" href="./css/main.css">
+<script src="./js/index.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li>
-                    <a href="#" id="logo">ABC Optical</a>
+                    <a href="#about" id="logo">ABC Optical</a>
                 </li>
                 <li>
-                    <a href="#">Glasses</a>
+                    <a href="#glasses">Glasses</a>
                 </li>
                 <li>
-                    <a href="#">Sunglasses</a>
+                    <a href="#sunglasses">Sunglasses</a>
                 </li>
                 <li>
-                    <a href="#">Contact Lenses</a>
+                    <a href="#contact-lenses">Contact Lenses</a>
                 </li>
                 <li>
-                    <a href="#">Eye Health</a>
+                    <a href="#eye-health">Eye Health</a>
                 </li>
                 <li>
-                    <i data-feather="heart"></i>
-                </li>
-                <li>
-                    <i data-feather="shopping-bag"></i>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main>
-        <ul>
-            <h1>A Lense For Every Lifestyle</h1>
+    <section id="about">
+        <h1>Here At ABC Optical We're All About Eyes</h1>
+        <p>  
+            Our wonderful staff are qualified optometrists able to cater to your specific eye needs. We are recognised as 
+            being able to manage children’s needs with a professional caring approach. Whenever an eye related problem is 
+            suspected we use a pragmatic scientific approach to diagnose and treat, this is how we ensure the best outcomes 
+            for our customers every time. Our optometrists strive to make a positive difference to the health and well-being 
+            of our customers, endeavoring to obtain the best visual outcome so that customers realise their full potential in 
+            work, study, sport and leisure.
+        </p> 
+    </section>
+    <section id="glasses">
+        <img id="elderly-man" src="./images/elderly-man-glasses-greyscale.jpg" 
+        alt="black and white photo of elderly man with large beard wearing glasses" >
+        <article>
+            <h1>Find Your Perfect Frames</h1>
             <p>
-                We are a Brisbane based company which is well regarded locally. We are recognised as being able to manage 
-                children’s needs with a professional caring approach. We employ two full-time, in-store qualified optometrists 
-                able to diagnose and treat a number of eye related problems. Our optometrists strive to make a positive 
-                difference to the health and well-being of our customers, endeavoring to obtain the best visual outcome so that 
-                customers realise their full potential in work, study, sport and leisure.
+                We offer the full bredth of prescription and non-prescription lenses that can be fitted to a wide range of 
+                our frames. We have offerings to satisfy any requirements from high performance sport glasses to mining & 
+                industrial safety spectacles.
             </p>
-            <button>Explore Our Suite Of Eye Tests And Examinations<i class="glyphicon glyphicon-arrow-right">Arrow</i></button>
-        </li>
-        <ul id="backgroundImage">
-            
-            <li>
-                <img id="elderlyManImage" src="./images/elderly-man-glasses-greyscale.jpg" 
-                alt="old-man-glasses-greyscale" width=250rem height=400rem>
-                <button>Glasses</button>
+        </article>
+    </section>
+    <section id="contact-lenses">
+        <h1>We Fit and Manage Contact Lenses; Every Step Of The Way</h1>
+    </section>
+    <section id="sunglasses">
+        <h1>Pick Your Ideal Style</h1>
+        <ul>
+            <li>-
+                <img src="./images/woman-zebra-sunglasses-red-background.jpg" 
+                alt="woman with long hair wearing zebra sunglasses looking into distance with a red backdrop">
+                <h1>Bright Colours</h1>
             </li>
             <li>
-                <img id="contactsBrownImage" src="./images/contact-lenses-brown-eyes.jpg" 
-                alt="contact-lenses-brown-eyes" width=250rem height=400rem>
-                <button>Contact Lenses</button>
+                <img src="./images/young-man-sunglasses-greyscale.jpg"
+                alt="black and white photo of man in black sunglasses looking into camera">
+                <h1>Classics</h1>
             </li>
             <li>
-                <img id="youngManImage" src="./images/young-man-sunglasses-greyscale.jpg" 
-                alt="young-man-sunglasses-greyscale" width=250rem height=400rem>
-                <button>Sunglasses</button>
+                <img src="./images/woman-white-sunglasses-blue-background.jpg" 
+                alt="woman wearing white sunglasses looking into distance with blue backdrop">
+                <h1>Modern Style</h1>
+
             </li>
         </ul>
-    </main>
+    </section>
+    <section id="eye-health">
+        <h1>Our bulk-billed eye examinations and services include:</h1>
+        <ul>
+            <li>
+                <p>Spectacles (may be bulk-billed to private Health Fund optical cover)</p>
+            </li>
+            <li>
+                <p>Diabetic eye examinations</p>
+            </li>
+            <li>
+                <p>Colour Vision assessments</p> 
+            </li>
+            <li>
+                <p>Macular Degeneration tests</p>   
+            </li>
+            <li>
+                <p>Glaucoma & eye pressure testing</p>
+            </li>
+            <li>
+                <p>Checks for Cataracts</p>
+            </li>
+            <li>
+                <p>Clearness of vision (myopia, hyperopia, astigmatism) </p>
+            </li>
+            <li>
+                <p>Focusing ability (Presbyopia)</p>  
+            </li>
+            <li>
+                <p>Eye muscle movement and control</p> 
+            </li>
+            <li>
+                <p>Amblyopia (lazy eye)</p>   
+            </li>
+            <li>
+                <p>Contact lens fitting and management</p> 
+            </li>
+            <li>
+                <p>Referrals for eye laser surgery</p>
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        
+        <ul>
+            <li>
+                <p>Trading Hours:</p>
+            </li>
+            <li>
+                <p>Mon – Thu: 9am - 5.30pm</p>
+            </li>
+            <li>
+                <p>Fri: 9am - 9pm</p>  
+            </li>
+            <li>
+                <p>Sat: 9am - 5pm</p> 
+            </li>
+            <li>
+                <p>Sun: 10am - 5pm</p>
+            </li>
+        </ul>
+        <h1>Visit us at The Myer Centre in Queen Street Mall on level 1, shop no. 36 or call us on 07 3256 7101.</h1>
+    </section>
     <footer>
-
+        <p>&copy; 2022 by Hamish McDonald</p>
     </footer>
-    <script>
-        feather.replace()
-    </script>
 </body>
 </html>
