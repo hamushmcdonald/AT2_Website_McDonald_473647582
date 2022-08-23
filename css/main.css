@@ -17,13 +17,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: navy;
-    font-size: 8vh;
+    font-size: 3rem;
 }
 
 p, pre {
     color: navy;
-    font-size: 4vh;
-    line-height: 8vh;
+    font-size: 1.5rem;
+    line-height: 3rem;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0% 5%;
 }
@@ -134,12 +134,22 @@ header ul li a:hover {
 #sunglasses ul {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#sunglasses h1 {
+    vertical-align: middle;
 }
 
 #sunglasses img {
-    max-width: 30%;
+    width: 25vw;
     height: fit-content;
-    padding: 5rem;
+    padding: 2vw;
+    
 }
 
 /* eye-health */
@@ -159,7 +169,22 @@ header ul li a:hover {
 
 
 #eye-health li, #eye-health p, #eye-health h1 {
-    color: yellow;
+    color: yellow;   
+}
+
+#eye-health li {
+    list-style-type: square;
+    width: 60vw;
+}
+    
+
+#eye-health ul {
+    padding: 3vw;
+}
+
+#eye-health h1 {
+    width: 28vw;
+    padding: 3vw;
 }
 
 
@@ -168,6 +193,24 @@ header ul li a:hover {
 #contact {
     display: flex;
     flex-direction: row;
+}
+
+#trading-hours {
+    display: block;
+    width: 50vw;
+    
+}
+
+#trading-hours li {
+    text-align: center;
+}
+
+#trading-hours ul {
+    list-style-type: square;
+}
+
+#contact h1 {
+    width: 50vw;
 }
 
 /* footer */
