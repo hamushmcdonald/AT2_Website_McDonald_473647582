@@ -17,13 +17,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: navy;
-    font-size: 3rem;
+    font-size: 3vw;
+    margin: 0% 5%;
 }
 
 p, pre {
     color: navy;
-    font-size: 1.5rem;
-    line-height: 3rem;
+    font-size: 1.5vw;
+    line-height: 3vw;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0% 5%;
 }
@@ -82,6 +83,7 @@ header ul li a:hover {
 
 #about h1 {
     padding-top: 15vh;
+    margin: 0% 5%;
 }
 
 #about p {
@@ -98,17 +100,18 @@ header ul li a:hover {
 }
 
 #elderly-man {
-    max-width: 30%;
+    width: 45vw;
     height: fit-content;
-    padding: 5rem;
+    padding: 2vw;
 }
 
 #glasses h1 {
-    padding-top: 10rem;
+    padding-top: 35vh;
+    margin-right: 5%;
 }
 
 #glasses p {
-    padding-bottom: 10rem;
+    padding-bottom: 15vh;
     margin-right: 5%;
 }
 
@@ -125,10 +128,15 @@ header ul li a:hover {
     min-height: 90vh;
 }
 
+#contact-lenses h1 {
+    padding: 40vh 0vh
+}
+
 /* sunglasses */
 
 #sunglasses {
     display: block;
+    text-align: center;
 }
 
 #sunglasses ul {
@@ -139,10 +147,12 @@ header ul li a:hover {
     padding: 0;
     overflow: hidden;
     vertical-align: middle;
+    padding-bottom: 15vh;
 }
 
 #sunglasses h1 {
     vertical-align: middle;
+    padding-top: 15vh;
 }
 
 #sunglasses img {
@@ -198,6 +208,7 @@ header ul li a:hover {
 #trading-hours {
     display: block;
     width: 50vw;
+    padding-top: 10vh;
     
 }
 
@@ -211,6 +222,7 @@ header ul li a:hover {
 
 #contact h1 {
     width: 50vw;
+    padding-top: 10vh;
 }
 
 /* footer */
@@ -218,3 +230,76 @@ header ul li a:hover {
 footer p {
     font-size: 1.5vw;
 }
+
+@media (min-width: 320px) and (max-width:770px) {
+    h1 {
+        font-size: 6vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+
+    #elderly-man {
+        width: 75vw;
+        height: fit-content;
+        padding: 2vw;
+        vertical-align: middle;
+
+    }
+
+    #glasses h1 {
+        padding-top: 5vh;
+        margin: 5%;
+    }
+    
+    #glasses p {
+        padding-bottom: 15vh;
+        margin: 5%;
+    }
+
+    #glasses {
+        flex-direction: column;
+    }
+
+    #sunglasses ul {
+        flex-direction: column;
+    }
+
+    #sunglasses img {
+        width: 75vw;
+        height: fit-content;
+        padding: 2vw;
+        vertical-align: middle;
+    }
+
+    #eye-health {
+        flex-direction: column;
+    }
+
+    #eye-health h1 {
+        width: 80vw;
+        padding: 2vw;
+    }
+
+    #eye-health ul {
+        width: 100vw;
+        padding: 2vw;
+        text-align: center;
+    }
+
+    #contact h1 {
+        width: 80vw;
+        padding: 2vw;
+    }
+
+    #contact ul {
+        width: 100vw;
+        padding: 2vw;
+        text-align: center;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+}
+
