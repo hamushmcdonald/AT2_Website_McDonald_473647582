@@ -61,7 +61,6 @@ header ul li a {
     font-size: 1.5vw;
     cursor: pointer;
     padding: 1rem;
-    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
 header ul li a:hover {
@@ -105,7 +104,7 @@ header ul li a:hover {
     padding: 2vw;
 }
 
-#glasses h1 {
+#glasses h2 {
     padding-top: 35vh;
     margin-right: 5%;
 }
@@ -128,7 +127,7 @@ header ul li a:hover {
     min-height: 90vh;
 }
 
-#contact-lenses h1 {
+#contact-lenses h2 {
     padding: 40vh 0vh
 }
 
@@ -150,7 +149,7 @@ header ul li a:hover {
     padding-bottom: 15vh;
 }
 
-#sunglasses h1 {
+#sunglasses h2 {
     vertical-align: middle;
     padding-top: 15vh;
 }
@@ -178,7 +177,7 @@ header ul li a:hover {
 
 
 
-#eye-health li, #eye-health p, #eye-health h1 {
+#eye-health li, #eye-health p, #eye-health h2 {
     color: yellow;   
 }
 
@@ -192,7 +191,7 @@ header ul li a:hover {
     padding: 3vw;
 }
 
-#eye-health h1 {
+#eye-health h2 {
     width: 28vw;
     padding: 3vw;
 }
@@ -220,7 +219,7 @@ header ul li a:hover {
     list-style-type: square;
 }
 
-#contact h1 {
+#contact h2 {
     width: 50vw;
     padding-top: 10vh;
 }
@@ -232,7 +231,7 @@ footer p {
 }
 
 @media (min-width: 320px) and (max-width:770px) {
-    h1 {
+    h1, h2 {
         font-size: 6vw;
     }
     p {
@@ -247,7 +246,7 @@ footer p {
 
     }
 
-    #glasses h1 {
+    #glasses h2 {
         padding-top: 5vh;
         margin: 5%;
     }
@@ -276,7 +275,7 @@ footer p {
         flex-direction: column;
     }
 
-    #eye-health h1 {
+    #eye-health h2 {
         width: 80vw;
         padding: 2vw;
     }
@@ -287,7 +286,7 @@ footer p {
         text-align: center;
     }
 
-    #contact h1 {
+    #contact h2 {
         width: 80vw;
         padding: 2vw;
     }
